@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:darkblue;
+    width: 80%;
+    height: 100%;
+    color: white;
+    margin: 0 auto;
+
+}
+
+h1{
+    text-align: center;
+    margin: 50px;   
+}
+
+input{
+    width: 60%;
+    height: 50px;
+    border: 2px solid white;
+    margin: 50px;
+    border-radius: 50px;    
+}
+.btn{
+    width: 20%;
+    height: 50px;
+}
+
+ul{ 
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.list__item{
+    margin-left: 50px;
+    height: 50px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    background: orange;
+    border: 3px solid grey;
+    border-radius: 20px;
+    padding: 13px;
+}
+
+.list__btn{
+    font-size: 10px;
+    width: 100px;
+    margin-top: -5px;
+    height: 30px;
+}
